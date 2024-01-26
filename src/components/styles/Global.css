@@ -1,0 +1,143 @@
+body {
+    background-image:linear-gradient(#4B7C4C, white) !important;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  .item-2 {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #113800;
+    width: 100%;
+  }
+  .opt-button {
+    display: inline-flex;
+    background-color: #eaffeb;
+    color: #113800;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #113800;
+    margin-bottom: 0.75vh
+  }
+  
+  .opt-button.left {
+    margin-right: 1.25vw;
+  }
+  
+  .opt-button.right {
+    margin-left: 1.25vw;;
+  }
+  
+  .opt-button:hover {
+    background-color: #b4f7b7;
+    transition: 0.35s;
+    text-decoration: none;
+  }
+  
+  .opt-button:link {
+    text-decoration: none;
+  }
+  
+  .center {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+
+  .grid-container.questionario1 {
+    border-style: double;
+    width: 80vw;
+  }
+
+  .grid-container.questionario1 .header {
+    top: 5vh;
+    position: absolute;
+    font-size: 3em;
+  }
+
+  .image-words {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 60%;
+  }
+
+  .image-words.item.images {
+    width: 30%;
+    flex: 1;
+  }
+
+  .image-words.item.words {
+    width: 70%;
+    flex: 4;
+  }
+
+  .opcoes-palavras {
+    display: flex;
+    flex-wrap: wrap;
+    left: 12.25%;
+    right: 12.25%;
+  }
+
+  .emocao-row {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  .emocao-checkbox {
+    display: none;
+  }
+
+  .emocao-label {
+    display: inline-block;
+    height: 5vh;
+    width: 10vw;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #eaffeb;
+    border: 2px solid #113800;;
+    border-radius: 50px;
+    cursor: pointer
+  }
+
+  .emocao-checkbox:checked + .emocao-label, .emocao-checkbox:hover + .emocao-label:hover{
+    background-color: #113800;
+    color: #eaffeb;
+    transition: 0.35s;
+  }
+
+  .botao-seta {
+    width: 50%;
+    height: 50%;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: #113800;
+    overflow: hidden;
+  }
+
+  .botao-seta img {
+    width: 100%;
+    height: auto;
+  }

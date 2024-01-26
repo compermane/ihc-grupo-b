@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.grid-container-emocao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+.item-2 {
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #113800;
+  width: 100%;
+}
+.opt-button {
+  display: inline-flex;
+  background-color: #eaffeb;
+  color: #113800;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: #113800;
+  margin-bottom: 0.75vh
+}
+
+.opt-button.left {
+  margin-right: 1.25vw;
+}
+
+.opt-button.right {
+  margin-left: 1.25vw;;
+}
+
+.opt-button:hover {
+  background-color: #b4f7b7;
+  transition: 0.35s;
+  text-decoration: none;
+}
+
+.opt-button:link {
+  text-decoration: none;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+}
