@@ -20,9 +20,13 @@ class App extends Component {
       <Router>
         <Routes>
           <Route exact path="" element={<Confirmacao emocao = "triste"/>} />
+          <Route path="/confirmacaoFeliz" element={<Confirmacao emocao = "feliz"/>} />
+          <Route path="/confirmacaoAnsioso" element={<Confirmacao emocao = "ansioso"/>} />
+          <Route path="/confirmacaoRaiva" element={<Confirmacao emocao = "raiva"/>} />
+          <Route path="/confirmacaoTedio" element={<Confirmacao emocao = "tedio"/>} />
           <Route path="/triste" element={<Questionario1 emocao = "triste"/>} />
           <Route path="/raiva" element={<Questionario1 emocao = "raiva"/>} />
-          <Route path="/entediado" element={<Questionario1 emocao = "entediado"/>} />
+          <Route path="/tedio" element={<Questionario1 emocao = "entediado"/>} />
           <Route path="/ansioso" element={<Questionario1 emocao = "ansioso"/>} />
           <Route path="/sintomuito" element={<SintoMuito />} />
           <Route path="/selecao" element={<Selecao />} />

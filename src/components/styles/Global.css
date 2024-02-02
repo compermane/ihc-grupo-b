@@ -72,12 +72,12 @@ body {
     transform: translate(-50%,-50%);
   }
 
-  .grid-container.questionario1.center{
+  .grid-container.questionario1{
     width: 80vw;
   }
 
   .grid-container.questionario1 .header {
-    top: 5vh;
+    top: 15vh;
     position: absolute;
     font-size: 3em;
   }
@@ -92,11 +92,15 @@ body {
   .image-words.item.images {
     width: 30%;
     flex: 1;
+    position: relative;
+    top: 25%;
   }
 
   .image-words.item.words {
     width: 70%;
     flex: 4;
+    position: relative;
+    top: 25%
   }
 
   .opcoes-palavras {
