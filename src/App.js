@@ -6,6 +6,10 @@ import Questionario1 from './components/Questionario1';
 import SintoMuito from './components/SintoMuito';
 import Selecao from './components/Selecao'
 import Feliz from './components/Feliz'
+import Page1 from './components/page1';
+import Page2 from './components/page2';
+import Page3 from './components/page3';
+import Final from './components/final-page';
 
 class App extends Component {
   constructor(props) {
@@ -19,6 +23,10 @@ class App extends Component {
     return (
       <Router>
         <Routes>
+          <Route path="/" exact element={<Page1 />} />
+          <Route path="/page2" element={<Page2 />} />
+          <Route path="/page3" element={<Page3 />} />
+          <Route path="/final-page" element={<Final />} />
           <Route exact path="" element={<Confirmacao emocao = "triste"/>} />
           <Route path="/confirmacaoFeliz" element={<Confirmacao emocao = "feliz"/>} />
           <Route path="/confirmacaoAnsioso" element={<Confirmacao emocao = "ansioso"/>} />
