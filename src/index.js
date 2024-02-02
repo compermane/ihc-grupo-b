@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import Emocao from './Emocao';
 import reportWebVitals from './reportWebVitals';
+import Page1 from  './components/page1.js';
+import Page2 from './components/page2.js';
+import Page3 from './components/page3.js';
+import Final from './components/final-page.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
