@@ -2,14 +2,14 @@ import React from 'react';
 import Imagem from './Imagem.js';
 import Button from './Button.js';
 import { Link } from 'react-router-dom';
-import './style.css';
+import './styles/style.css';
 
 const Page1 = () => {
   return (
     <div className = "App">   
-      <h1>OLÁ, EU SOU A</h1>
-      <h2>CLÁUDIA</h2>
-      <h3>A ROBÔ DO DC</h3>
+      <h1 class = "anna">OLÁ, EU SOU A</h1>
+      <h2 class = "anna">CLÁUDIA</h2>
+      <h3 class = "anna">A ROBÔ DO DC</h3>
 
       <Imagem imagem="dana.png" position='absolute' height="816.09px" width= "846.79px" top="50px" left="499px"/>
       

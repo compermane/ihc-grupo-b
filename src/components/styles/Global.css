@@ -23,6 +23,12 @@ body {
     height: 100vh;
     margin: 0;
     text-align: center;
+    color: rgba(0, 56, 2, 1);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
   }
   .item-2 {
     position: absolute;
@@ -122,10 +128,11 @@ body {
 
   .emocoes-row .emocao-label {
     font-size: 1.125em;
+    letter-spacing: 1.6px;
     display: inline-block;
     height: 5vh;
-    width: 10vw;
-    padding: 10px 20px;
+    width: 13vw;
+    padding: 3.125% 10px 10px 10px;
     margin: 5px;
     background-color: #eaffeb;
     border: 2px solid #113800;

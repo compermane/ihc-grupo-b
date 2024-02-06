@@ -1,6 +1,6 @@
 import React from 'react';
 import Imagem from './Imagem.js';
-import './style.css';
+import './styles/style.css';
 
 const Avaliacao = () => {
     return (

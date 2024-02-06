@@ -9,7 +9,7 @@ const SintoMuito = () => {
             <img src = {sorryPana} alt = "dana-triste"></img>
             </div>
             <div class = "grid-container-item item-2">
-            <h1>Eu sinto muito que você esteja passando por isso</h1>
+            <h1 class = "sinto-muito-text">Eu sinto muito que você esteja passando por isso</h1>
             </div>
         </div>
     )

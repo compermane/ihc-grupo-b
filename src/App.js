@@ -27,7 +27,7 @@ class App extends Component {
           <Route path="/page2" element={<Page2 />} />
           <Route path="/page3" element={<Page3 />} />
           <Route path="/final-page" element={<Final />} />
-          <Route exact path="" element={<Confirmacao emocao = "triste"/>} />
+          <Route path="/confirmacaoTriste" element={<Confirmacao emocao = "triste"/>} />
           <Route path="/confirmacaoFeliz" element={<Confirmacao emocao = "feliz"/>} />
           <Route path="/confirmacaoAnsioso" element={<Confirmacao emocao = "ansioso"/>} />
           <Route path="/confirmacaoRaiva" element={<Confirmacao emocao = "raiva"/>} />
