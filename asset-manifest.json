@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ihc-grupo-b/static/css/main.c99e9aa8.css",
-    "main.js": "/ihc-grupo-b/static/js/main.86ae8cac.js",
+    "main.js": "/ihc-grupo-b/static/js/main.254e3bfe.js",
     "static/js/592.9e3de42d.chunk.js": "/ihc-grupo-b/static/js/592.9e3de42d.chunk.js",
     "static/media/pana-thinking.png": "/ihc-grupo-b/static/media/pana-thinking.d1967930a941dfa79643.png",
     "static/media/tedio-dana.png": "/ihc-grupo-b/static/media/tedio-dana.5086a9fd06724dfdfe52.png",
@@ -12,11 +12,11 @@
     "static/media/tela-feliz.png": "/ihc-grupo-b/static/media/tela-feliz.0a23e14dd3cb9caab465.png",
     "index.html": "/ihc-grupo-b/index.html",
     "main.c99e9aa8.css.map": "/ihc-grupo-b/static/css/main.c99e9aa8.css.map",
-    "main.86ae8cac.js.map": "/ihc-grupo-b/static/js/main.86ae8cac.js.map",
+    "main.254e3bfe.js.map": "/ihc-grupo-b/static/js/main.254e3bfe.js.map",
     "592.9e3de42d.chunk.js.map": "/ihc-grupo-b/static/js/592.9e3de42d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c99e9aa8.css",
-    "static/js/main.86ae8cac.js"
+    "static/js/main.254e3bfe.js"
   ]
 }
